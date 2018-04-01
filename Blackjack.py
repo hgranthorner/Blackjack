@@ -1,5 +1,6 @@
-#Create an interactive game of Blackjack
-#Draw between 1-11
+# Author: Grant Horner (h.grant.horner@gmail.com)
+# Create an interactive game of Blackjack
+# Draw between 1-11
 
 import random
 
@@ -11,7 +12,7 @@ while play != 'y' and play != 'n':
     play = input("Please write y for yes or n for no.\n")
 while play == 'y':
     print("Here are your cards.")
-    #Deal player and dealer 2 cards
+    # Deal player and dealer 2 cards
     cards = [random.randint(1,11),random.randint(1,11)]
     dcards = [random.randint(1,11),random.randint(1,11)]
     print(cards)
